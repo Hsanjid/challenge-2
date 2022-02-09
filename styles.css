@@ -1,0 +1,121 @@
+body {
+  background-image: url(img/astronomy-g8c1b5a61d_1920.jpg);
+  color: aliceblue;
+}
+
+#logo {
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+main {
+  background-color: rgba(35, 36, 37, 0.58);
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1.5px solid rgb(69, 101, 241);
+}
+
+#content {
+  margin-top: 5rem;
+}
+
+label {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 1.35rem;
+}
+
+input:focus {
+  background-color: rgb(146, 193, 247);
+}
+
+#name {
+  margin-top: 2.5rem;
+  margin: 3rem;
+}
+
+#password {
+  margin-top: 2.5rem;
+  margin: 3rem;
+}
+
+#sub-section a {
+  font-size: 1.15rem;
+  color: rgb(71, 131, 241);
+  margin-left: 10rem;
+  text-decoration: none;
+}
+
+section button {
+  width: 85%;
+  height: 2.5rem;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background-color: rgba(89, 163, 238, 0.58);
+  border-radius: 0.5rem;
+  border: 1px solid rgb(89, 163, 238);
+}
+
+#bottom {
+  background-color: rgba(35, 36, 37, 0.58);
+  height: 3.5rem;
+  width: 25rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1.5px solid rgb(69, 101, 241);
+}
+
+#bottom h3 {
+  font-size: 2rem;
+  font-family: serif;
+  font-size: large;
+  margin: 0.75rem auto;
+  margin-left: 3.5rem;
+}
+
+#bottom a {
+  color: rgb(71, 131, 241);
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 6.8rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#footer {
+  margin-left: 47rem;
+}
+
+#footer a {
+  font-size: larger;
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+  margin-left: 2rem;
+}
