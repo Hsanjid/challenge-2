@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital@1&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
@@ -26,27 +26,34 @@
       <h1>Sign in to GitHub</h1>
     </header>
     <main>
-      <div id="contect">
-        <section id="name">
-          <label for="user-name/email">Username or Email</label>
-          <input
-            type="text"
-            name="user-name/email"
-            id="user-name/email"
-            required
-          />
-        </section>
-        <section id="password">
-          <label for="user-password">Password</label>
-          <input type="password" name="user-password" id="user-password" />
-          <section id="sub-section">
-            <a href="">Forgot password?</a>
+      <form action="/" method="get">
+        <div id="contect">
+          <section id="name">
+            <label for="user-name/email">Username or Email</label>
+            <input
+              type="text"
+              name="user-name/email"
+              id="user-name/email"
+              required
+            />
           </section>
+          <section id="password">
+            <label for="user-password">Password</label>
+            <input
+              type="password"
+              name="user-password"
+              id="user-password"
+              required
+            />
+            <section id="sub-section">
+              <a href="">Forgot password?</a>
+            </section>
+          </section>
+        </div>
+        <section id="button">
+          <button>Sign in</button>
         </section>
-      </div>
-      <section id="button">
-        <button>Sign in</button>
-      </section>
+      </form>
     </main>
     <section id="bottom">
       <h3>New to GitHub? <a href="">Create an account</a></h3>
